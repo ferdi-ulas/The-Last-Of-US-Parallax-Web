@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+/* Body Styles */
 body {
     margin: 0;
     padding: 0;
@@ -8,12 +9,14 @@ body {
     background-color: #010001;
 }
 
+/* Container Fluid Styles */
 .container-fuild {
     height: 100vh;
     overflow-x: hidden;
     perspective: 20px;
 }
 
+/* Banner Section Styles */
 .banner {
     height: 100vh;
     display: flex;
@@ -23,6 +26,7 @@ body {
     transform-style: preserve-3d;
 }
 
+/* Background Styles for Banner */
 .bg {
     background-image: url(bg.jpg);
     position: absolute;
@@ -42,13 +46,14 @@ body {
     bottom: 0;
 }
 
+/* Content Styles inside Banner */
 .content {
     font-size: xx-large;
     text-align: center;
     transform: translateZ(10px);
 }
 
-
+/* Main Container Styles */
 .container {
     width: 1200px;
     max-width: 100%;
@@ -56,6 +61,7 @@ body {
     padding-bottom: 100px;
 }
 
+/* Header Section Styles */
 header {
     position: absolute;
     top: 0;
@@ -66,21 +72,25 @@ header {
     padding: 40px 0;
 }
 
+/* Logo Styles */
 header .logo img {
     width: 240px;
 }
 
+/* Navigation Styles */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: end;
 }
 
+/* Navigation List Item Styles */
 nav ul li {
     padding: 10px;
     cursor: pointer;
 }
 
+/* Description Section Styles */
 .des {
     width: 70%;
     text-align: center;
@@ -96,32 +106,47 @@ nav ul li {
     transform: translateY(0px);
 }
 
+/* Footer Section Styles */
 .footer {
     display: flex;
     justify-content: center;
     height: 80px;
 }
 
-
+/* Anchor Tag Styles */
 a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-/* Tıklanan link beyaz renk olacak */
-a:visited {
+/* Anchor Tag States: Visited, Active, and Link Styles */
+a:visited,
+a:active,
+a:link {
     color: white;
 }
 
-/* Link aktifken (tıklandığında) beyaz renk */
-a:active {
-    color: white;
-}
-
-/* Normal link durumunda da beyaz renk */
 a:link {
     color: #007BFF;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+/* Scrollbar Track Styles */
+::-webkit-scrollbar-track {
+    background: #1f1d1d;
+}
+
+/* Scrollbar Thumb Styles */
+::-webkit-scrollbar-thumb {
+    background-color: #141313;
+    border-radius: 10px;
+}
+
+/* Scrollbar Thumb Hover State */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #000000;
 }
