@@ -78,6 +78,7 @@ nav ul {
 
 nav ul li {
     padding: 10px;
+    cursor: pointer;
 }
 
 .des {
@@ -99,4 +100,28 @@ nav ul li {
     display: flex;
     justify-content: center;
     height: 80px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Tıklanan link beyaz renk olacak */
+a:visited {
+    color: white;
+}
+
+/* Link aktifken (tıklandığında) beyaz renk */
+a:active {
+    color: white;
+}
+
+/* Normal link durumunda da beyaz renk */
+a:link {
+    color: #007BFF;
 }

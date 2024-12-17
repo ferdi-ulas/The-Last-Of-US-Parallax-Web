@@ -11,3 +11,22 @@ containerFuild.addEventListener('scroll', ()=>{
         }
     })
 })
+
+const playButton = document.getElementById('playMusicButton');
+const audioElement = document.getElementById('backgroundMusic');
+let isPlaying = false;
+
+playButton.addEventListener('click', () => {
+    if (!isPlaying) {
+        audioElement.play();
+        playButton.textContent = "⏸ The Last Of Us Play";
+        isPlaying = true;
+    } else {
+        audioElement.pause();
+        playButton.textContent = "▶ The Last Of Us Music Play";
+        isPlaying = false;
+    }
+
+   
+});
+
