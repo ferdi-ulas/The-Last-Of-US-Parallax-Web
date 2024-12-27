@@ -25,6 +25,6 @@ You can test the application live here:
 
 ## 📺 Watch the Video
 For a detailed explanation and demo, watch the video on YouTube:  
-[Watch on YouTube](https://www.youtube.com/@jr.ferdiulas)
+[Watch on YouTube](https://www.youtube.com/watch?v=hvMxRpzjWu8&t=1020s)
 
 
